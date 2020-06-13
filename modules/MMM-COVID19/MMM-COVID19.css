@@ -1,0 +1,43 @@
+.covid {
+  border-collapse: collapse!important;
+}
+
+.covid .small {
+  font-size: 12px;
+}
+
+.covid .medium {
+  font-size: 16px;
+}
+
+.covid td.number {
+  text-align: right;
+}
+
+.covid td.recovered {
+  color: grey;
+}
+
+.covid td.deaths {
+  color: grey;
+}
+
+.covid td.serious {
+  color: grey;
+}
+
+.covid td.active {
+  color: white;
+}
+.covid tr.world {
+  border-bottom: 3px double grey;
+}
+
+.covid td.last-update {
+  text-align: right;
+  font-size: 12px;
+}
+
+.covid tr.highlight {
+  background-color: #404040;
+}
